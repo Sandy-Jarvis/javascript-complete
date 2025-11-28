@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <form class="form-control">
+
+    <input type="text" name="userInput" id="user" class="user" value="userInput">
+
+    <input type="email" name="email" id="email" placeholder="Enter email"><br>
+    <input type="date" name="DOB" id="DOB" placeholder="Enter DOB"><br>
+
+    <label for="percentage">Select Percentage</label>
+    <input type="range" name="percentage" id="percentage" max="100" min="35">
+    <span class="display">62</span><br>
+
+    <label for="skills">Select skills:</label>
+    <div id="skills">
+      <input type="checkbox" name="skills" id="java" value="java">
+      <label for="java">Java</label>
+      <input type="checkbox" name="skills" id="SQL" value="SQL">
+      <label for="SQL">SQL</label>
+      <input type="checkbox" name="skills" id="Python" value="Python">
+      <label for="Python">Python</label>
+      <input type="checkbox" name="skills" id="HTML" value="HTML">
+      <label for="HTML">HTML</label>
+    </div>
+
+    <button type="submit">submit</button>
+  </form>
+  <script src="./index.js"></script>
+</body>
+</html>
